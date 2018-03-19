@@ -1,19 +1,19 @@
 Microservices:
-Small autonomous services that work togather.
+An micro service is a small autonomous service that work together.
 
 Martin Fowler:
-The mocroservice architectural style is an approach to developing a single application as a suite of small services , each runing in its own process and communicating with lightweight mechanisim , often an HTTP resource API. These services are built arround bussiness capabilities and independently deployable by fully automated deployment machinery.
-There is a bare minimum of centralized management of these services, which may be written in different programming lanaguages and use different data storage technologies 
+The mocroservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanism, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery.
+There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies 
 -------------------------------------------------------------------------------------------------------
 -REST
--Small well chosen deployable units
+-Small well-chosen deployable units
 -Cloud enabled
 -------------------------------------------------------------------------------------------------------
-Challengs:
-1-Bounded Context- Small units/servies with well defined reponsibility/boundry
-2-Configuration Management - Multiple envorinment with many properties/configuration
+Challenges:
+1-Bounded Context- Small units/services with well-defined responsibility/boundary
+2-Configuration Management - Multiple environments with many properties/configuration
 3-Dynamic scale up and scale down - Have new instances in case of load dynamically and balance load
-4-Visibilty - Functionalty should be debugable and moniterable
+4-Visibilty - Functionality should be debug able and moniterable
 5-Pack of card - one MS depends on other MS - If one collapse all will go down so have a fault tolerance strategy
 -------------------------------------------------------------------------------------------------------
 Spring Cloud - Common patterns and framework for distributed system developed with MS
@@ -23,12 +23,12 @@ Finchley M2 release of Spring Cloud.
 Challengs:
 1-Configiration Management: 
 	Spring cloud config server
-2- Dynamic scale up and down :
-		Naming Server(Eureka) 
+2- Dynamic scale up and down:
+		Naming Server (Eureka) 
 			Service Registry
 			Service Discovery
-		Ribbon(Client side load Balancing)
-		Feign(Easier REST clients)
+		Ribbon (Client side load balancing)
+		Feign (Easier REST clients)
 
 3-Visibility and Monitoring:
 	Zipkin Distributed Tracing
@@ -58,4 +58,5 @@ http://localhost:8000/currency-exchange/from/pak/to/usdhttp://localhost:8888/lim
 http://localhost:8000/h2-console/
 
 http://localhost:8000/currency-exchange/from/USD/to/PKR
+
 
