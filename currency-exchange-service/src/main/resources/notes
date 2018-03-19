@@ -1,5 +1,5 @@
 Microservices:
-An micro service is a small autonomous service that work together.
+A micro service is a small autonomous service that works together.
 
 Martin Fowler:
 The mocroservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanism, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery.
@@ -32,16 +32,16 @@ Challengs:
 
 3-Visibility and Monitoring:
 	Zipkin Distributed Tracing
-	Netflix (Zuul)API Gateway
+	Netflix (Zuul) API Gateway
 
 
 4-Fault Tolerance
 	Hystrix
 -------------------------------------------------------------------------------------------------------
 Advantanges of MS Architecture
-1- New Technology & Prcess Adaption - MS in different technlogies
+1- New Technology & Process Adaption - MS in different technologies
 2 - Dynamic Scaling
-3- Fatser Release Cycles - Small and independent MS can ve deveoped and enached quickly
+3- Faster Release Cycles - Small and independent MS can be developed and enhanced quickly
 -------------------------------------------------------------------------------------------------------
 limit-service
 -------------------------------------------------------------------------------------------------------
