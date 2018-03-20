@@ -66,3 +66,14 @@ http://start.spring.io/
 Feign
 1- Simple way of calling other REST services.
 2- Integration with ribbon which is client side load balancing. 
+
+add @EnableFeignClient Annotation
+		Create a proxy interface
+		calll the proxy
+
+name=> 
+	spring.application.name=currency-exchange-service
+url=>	
+server.port=8000
+@FeignClient(name="currency-exchange-service" , url="")
+Used to call external rest service using proxy
