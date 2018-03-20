@@ -61,3 +61,8 @@ http://localhost:8000/currency-exchange/from/USD/to/PKR
 
 spring starter project
 http://start.spring.io/
+
+-------------------------------------------------------------------------------------------------------
+Feign
+1- Simple way of calling other REST services.
+2- Integration with ribbon which is client side load balancing. 
